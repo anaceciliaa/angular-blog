@@ -1,27 +1,41 @@
-# AngularBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+# Marvel Blog
 
-## Development server
+Projeto desenvolvido durante o bootcamp de 
+**Coding The Future Banco PAN - Desenvolvimento Frontend com Angular** da [Digital Inovation One (DIO)](https://www.dio.me). A aplicação é um blog feito com Angular aplicando os conceitos de componentes, templates e data binding para sincronizar dados, além do uso de diretivas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p align="center">
+  <img src="https://github.com/anaceciliaa/angular-blog/assets/105685915/3707ad35-fcc5-488e-8cca-aab0a7ca359a">
+</p>
 
-## Code scaffolding
+## Tecnologias utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Linguagens de programação:** HTML, CSS, TypeScript.
 
-## Build
+**Frameworks e bibliotecas:** Angular. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Funcionalidades
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Possui um menu de navegação com diferentes seções do blog, como "Home", "Notícias" e "Sobre", facilitando a navegação e a descoberta de conteúdo relevante.
+- Apresenta um card grande de notícia em destaque visual na página inicial, com uma imagem e título maiores, acompanhados de um breve resumo sobre a notícia.
+- Exibe pequenos cards de notícias na página inicial, destacando outras notícias recentes do blog.
+- A aplicação é responsiva, adaptando-se automaticamente a diferentes tamanhos de dispositivos.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Instalação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Após clonar o repositório, acesse a pasta do projeto e execute os comandos abaixo:
+
+```bash
+  npm install
+  ng serve
+```
+
+Após executar esses comandos, acesse http://localhost:4200 para visualizar a aplicação.
+
+
+    
+## Licença
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
